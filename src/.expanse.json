@@ -130,7 +130,7 @@
           "name": "inre-aparicion",
           "parameters": {
             "cubo": 0.75,
-            "demora": 0,
+            "demora": 0.08,
             "esGltf": false,
             "esTextura": true,
             "esVideo": true
@@ -168,18 +168,18 @@
         "alphaTest": 0.5
       },
       "name": "Secuencia_01_2",
-      "order": 9.5,
-      "parentId": "67f0ed7c-e73f-44f3-b902-f0794ebe77a9",
+      "order": 2.1364657448187763,
+      "parentId": "ecad8fa8-37cd-4ee5-9e71-9cd32855648d",
       "position": [
         0,
-        0.28125,
-        0
+        -5.551115123125783e-17,
+        0.28125000000000006
       ],
       "rotation": [
-        -0.7071067811865475,
+        1.1102230246251565e-16,
         0,
         0,
-        0.7071067811865476
+        1
       ],
       "scale": [
         1.4,
