@@ -1,0 +1,443 @@
+{
+  "entrySpaceId": "67f0ed7c-e73f-44f3-b902-f0794ebe77a9",
+  "objects": {
+    "01c95269-1b99-4055-a65c-d84f68f62958": {
+      "components": {},
+      "geometry": null,
+      "id": "01c95269-1b99-4055-a65c-d84f68f62958",
+      "imageTarget": {
+        "name": "Captura_de_pantalla_2026-11-23_031657"
+      },
+      "material": null,
+      "name": "Marcador · Captura_de_pantalla_2026-11-23_031657",
+      "order": 5.5,
+      "parentId": "67f0ed7c-e73f-44f3-b902-f0794ebe77a9",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "25d16f61-6cd0-4193-933e-7d6bba00fdf4": {
+      "components": {},
+      "geometry": null,
+      "id": "25d16f61-6cd0-4193-933e-7d6bba00fdf4",
+      "imageTarget": {
+        "name": "Captura_de_pantalla_2026-11-23_031641"
+      },
+      "material": null,
+      "name": "Marcador · Captura_de_pantalla_2026-11-23_031641",
+      "order": 6.5,
+      "parentId": "67f0ed7c-e73f-44f3-b902-f0794ebe77a9",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "4934614f-d530-49f0-9bf4-50b80605bfaa": {
+      "components": {},
+      "geometry": null,
+      "id": "4934614f-d530-49f0-9bf4-50b80605bfaa",
+      "imageTarget": {
+        "name": "Captura_de_pantalla_2026-11-23_030518"
+      },
+      "material": null,
+      "name": "Marcador · Captura_de_pantalla_2026-11-23_030518",
+      "order": 4.5,
+      "parentId": "67f0ed7c-e73f-44f3-b902-f0794ebe77a9",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "4d93568c-934d-4835-bf5b-23af28a7832e": {
+      "camera": {
+        "type": "perspective",
+        "fov": 60,
+        "nearClip": 0.01,
+        "farClip": 1000,
+        "xr": {
+          "xrCameraType": "world",
+          "phone": "AR",
+          "desktop": "disabled",
+          "headset": "disabled",
+          "direction": "back"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "id": "4d93568c-934d-4835-bf5b-23af28a7832e",
+      "material": null,
+      "name": "Cámara",
+      "order": 0.5,
+      "parentId": "67f0ed7c-e73f-44f3-b902-f0794ebe77a9",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.3,
+        1,
+        1
+      ]
+    },
+    "ada2bfce-f248-4ad0-baae-4200f8734574": {
+      "components": {
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.662,
+            "demora": 0,
+            "esGltf": false,
+            "esTextura": true,
+            "esVideo": true
+          }
+        }
+      },
+      "geometry": {
+        "type": "plane",
+        "width": 0.5576923076923077,
+        "height": 1
+      },
+      "id": "ada2bfce-f248-4ad0-baae-4200f8734574",
+      "material": {
+        "type": "video",
+        "color": "#ffffff",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/sin-t-tulo-este-diablito-de_1.mp4"
+        }
+      },
+      "name": "sin-t-tulo-este-diablito-de_1",
+      "order": 0.6715735846030338,
+      "parentId": "01c95269-1b99-4055-a65c-d84f68f62958",
+      "position": [
+        0,
+        0,
+        0.003
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "videoControls": {
+        "loop": true,
+        "paused": false
+      }
+    },
+    "c6d3cafe-77d1-45ce-a561-6aa7bb648f8d": {
+      "components": {
+        "979aae4c-be62-44b6-b17f-d882a9457619": {
+          "id": "979aae4c-be62-44b6-b17f-d882a9457619",
+          "name": "inre-video",
+          "parameters": {
+            "alphaTest": 0.5,
+            "blending": "normal",
+            "depthTest": true,
+            "depthWrite": false,
+            "forceTransparent": true,
+            "side": "double"
+          }
+        },
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.664,
+            "demora": 0,
+            "esGltf": false,
+            "esTextura": true,
+            "esVideo": true
+          }
+        }
+      },
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 0.5625
+      },
+      "id": "c6d3cafe-77d1-45ce-a561-6aa7bb648f8d",
+      "material": {
+        "type": "video",
+        "color": "#ffffff",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Secuencia_01.webm"
+        },
+        "forceTransparent": true,
+        "depthWrite": false,
+        "side": "double",
+        "alphaTest": 0.5
+      },
+      "name": "Secuencia_01",
+      "order": 0.13646574481877627,
+      "parentId": "ecad8fa8-37cd-4ee5-9e71-9cd32855648d",
+      "position": [
+        0,
+        0,
+        0.681
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "videoControls": {
+        "loop": true,
+        "paused": false
+      }
+    },
+    "ca296d81-4f29-4db6-9b9d-1ba3ae789c05": {
+      "components": {
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.662,
+            "demora": 0,
+            "esGltf": false,
+            "esTextura": true,
+            "esVideo": true
+          }
+        }
+      },
+      "geometry": {
+        "type": "plane",
+        "width": 0.5576923076923077,
+        "height": 1
+      },
+      "id": "ca296d81-4f29-4db6-9b9d-1ba3ae789c05",
+      "material": {
+        "type": "video",
+        "color": "#ffffff",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/sin-t-tulo-este-diablito-de_2.mp4"
+        }
+      },
+      "name": "sin-t-tulo-este-diablito-de_2",
+      "order": 0.2543420753105038,
+      "parentId": "25d16f61-6cd0-4193-933e-7d6bba00fdf4",
+      "position": [
+        0,
+        0,
+        0.02
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "videoControls": {
+        "loop": true,
+        "paused": false
+      }
+    },
+    "ecad8fa8-37cd-4ee5-9e71-9cd32855648d": {
+      "components": {},
+      "geometry": null,
+      "id": "ecad8fa8-37cd-4ee5-9e71-9cd32855648d",
+      "imageTarget": {
+        "name": "Captura_de_pantalla_2026-11-23_044816"
+      },
+      "material": null,
+      "name": "Marcador · Captura_de_pantalla_2026-11-23_044816",
+      "order": 8.5,
+      "parentId": "67f0ed7c-e73f-44f3-b902-f0794ebe77a9",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "ecda3735-864c-41df-9679-90ab2ae68f70": {
+      "components": {
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.662,
+            "demora": 0,
+            "esGltf": false,
+            "esTextura": true,
+            "esVideo": true
+          }
+        }
+      },
+      "geometry": {
+        "type": "plane",
+        "width": 0.5576923076923077,
+        "height": 1
+      },
+      "id": "ecda3735-864c-41df-9679-90ab2ae68f70",
+      "material": {
+        "type": "video",
+        "color": "#ffffff",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/sin-t-tulo-este-diablito-de.mp4"
+        }
+      },
+      "name": "sin-t-tulo-este-diablito-de",
+      "order": 0.16231357451236006,
+      "parentId": "4934614f-d530-49f0-9bf4-50b80605bfaa",
+      "position": [
+        0,
+        3.469446951953614e-18,
+        0.018000000000000002
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1.0000000000000002
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "videoControls": {
+        "loop": true,
+        "paused": false
+      }
+    },
+    "f9a3f46f-4116-47ba-be0c-6c706d620f40": {
+      "components": {},
+      "geometry": null,
+      "id": "f9a3f46f-4116-47ba-be0c-6c706d620f40",
+      "light": {
+        "type": "ambient"
+      },
+      "material": null,
+      "name": "Luz ambiental",
+      "order": 1.5,
+      "parentId": "67f0ed7c-e73f-44f3-b902-f0794ebe77a9",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "fa533b21-4ace-41d9-ad39-3793e742f050": {
+      "components": {},
+      "geometry": null,
+      "id": "fa533b21-4ace-41d9-ad39-3793e742f050",
+      "light": {
+        "type": "directional",
+        "intensity": 1
+      },
+      "material": null,
+      "name": "Luz direccional",
+      "order": 2.5,
+      "parentId": "67f0ed7c-e73f-44f3-b902-f0794ebe77a9",
+      "position": [
+        20,
+        50,
+        10
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "spaces": {
+    "67f0ed7c-e73f-44f3-b902-f0794ebe77a9": {
+      "activeCamera": "4d93568c-934d-4835-bf5b-23af28a7832e",
+      "id": "67f0ed7c-e73f-44f3-b902-f0794ebe77a9",
+      "name": "Espacio principal"
+    }
+  }
+}
