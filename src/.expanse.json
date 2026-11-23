@@ -217,7 +217,8 @@
         "forceTransparent": true,
         "depthWrite": false,
         "side": "double",
-        "alphaTest": 0.5
+        "alphaTest": 0.5,
+        "opacity": 1
       },
       "name": "Secuencia_01",
       "order": 0.13646574481877627,
@@ -293,6 +294,54 @@
       "videoControls": {
         "loop": true,
         "paused": false
+      }
+    },
+    "ec27d690-efca-4697-8b24-d0c4b92b0718": {
+      "components": {
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.75,
+            "demora": 0.08,
+            "esGltf": false,
+            "esTextura": false,
+            "esVideo": false
+          }
+        }
+      },
+      "geometry": {
+        "type": "plane",
+        "width": 4,
+        "height": 4
+      },
+      "id": "ec27d690-efca-4697-8b24-d0c4b92b0718",
+      "material": {
+        "color": "#ffffff",
+        "roughness": 0.7,
+        "type": "basic"
+      },
+      "name": "Plano",
+      "order": 1.1364657448187763,
+      "parentId": "ecad8fa8-37cd-4ee5-9e71-9cd32855648d",
+      "position": [
+        0,
+        0,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1.0000000000000002
+      ],
+      "scale": [
+        0.4,
+        0.225,
+        1
+      ],
+      "shadow": {
+        "receiveShadow": true
       }
     },
     "ecad8fa8-37cd-4ee5-9e71-9cd32855648d": {
